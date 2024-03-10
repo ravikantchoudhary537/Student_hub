@@ -284,6 +284,7 @@ footer{
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    color:white;
 }
 footer .footer-col{
     padding-bottom: 40px;
@@ -296,6 +297,7 @@ footer h3{
 }
 footer li{
     color:#7b838a;
+    /* color:white; */
     list-style: none;
     cursor: pointer;
     padding: 10px 0;
@@ -354,6 +356,10 @@ footer .copy-right .pro-links i:hover{
 }
 .menu-btn-menu{
     display: none;
+}
+.home-links li a{
+    text-decoration: none;
+    color:white;
 }
 @media (max-width:568) {
     /* .menu-btn-menu{
